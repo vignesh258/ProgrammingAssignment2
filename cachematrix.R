@@ -3,7 +3,7 @@
 
 makeCacheMatrix <- function(x = matrix()) ## X is the input matrix
 {
-     ## Mt_Inv is the variable to hold out
+     ## Mt_Inv is the variable to hold output
      ## Set to Null Initially
      Mt_Inv = NULL                        
      set = function(Mt_Set) #Function to reset the value of x - the input matrix
